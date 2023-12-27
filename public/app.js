@@ -1,4 +1,4 @@
-/*
+
 document.addEventListener("DOMContentLoaded", function () {
     // Obtén el elemento del video
     var video = document.getElementById("scrollVideo");
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Observa el elemento del video
     observer.observe(video);
 });
-*/
+
 
 //dark mode
 
