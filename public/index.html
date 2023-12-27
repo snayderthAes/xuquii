@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+
+    <header class="responsive px-[40px] py-[14px] border-2 border-[#e2e2e2a1] mx-[60px] my-[10px] rounded-full shadow-xl bg-white max-sm:rounded-xl max-sm:mx-0 max-sm:w-full max-sm:px-[10px]" id="header">
+        <div class="flex max-sm:items-center">
+            <div class="max-w-[35px] mr-[10px]">
+                <a href="#"><img src="img/logo.png" class="w-full h-auto"></a>
+            </div>
+
+            <div>
+                <a href="#" class="font-tprincipal text-[30px] font-semibold">TIK TOK</a>
+            </div>
+        </div>
+
+        <!--input search-->
+        <div class="w-[600px] max-sm:hidden">
+            <div class="relative flex items-center">
+
+                <div class="mr-[15px]">
+                    <box-icon name='microphone' type='solid' color='#333333' class="cursor-pointer"></box-icon>
+                </div>
+
+                <input type="text" placeholder="Buscar Videos De Xuquii" class="w-full h-[38px] rounded-full border-2 border-[#d3d3d3d8] shadow-lg pl-[14px] pr-[50px] outline-none">
+
+                <div class="absolute top-0 right-0">
+                    <button class="background-tik font-tprincipal text-white text-[16px] w-[36px] h-[36px] rounded-full font-medium flex items-center justify-center"><box-icon name='search' color='#ffffff' ></box-icon></button>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="flex max-sm:hidden">
+            <div class="mr-[10px] shadow-xl">
+                <a href="#" class="font-tprincipal text-[15px] text-white py-[6px] border-2 border-transparent px-[16px] bg-[#ff8161] rounded-lg btn">Login</a>
+            </div>
+
+            <div>
+                <a href="#" class="font-tprincipal text-[15px] text-black py-[6px] px-[16px] border-2 border-[#ff8161] rounded-lg btn">Register</a>
+            </div>
+        </div>
+
+
+        <div class="max-2xl:hidden max-sm:block">
+            <div class="flex flex-row items-center">
+                <div class="mr-[25px]">
+                    <ion-icon id="themeToggle" name="moon-outline" style="font-size: 23px;"></ion-icon>
+                </div>
+
+                <ion-icon id="menuIcon" name="menu-outline" style="font-size: 35px; cursor: pointer;"></ion-icon>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!--SECTION 1-->
+
+    <section class="px-[85px] mt-[180px] max-sm:px-[20px] max-sm:mt-[140px]">
+
+        <!--HOME 1-->
+        <div class="w-full mt-[80px] flex justify-between max-sm:flex max-sm:flex-col">
+            <div class="w-[540px] max-sm:w-full">
+                <div class="flex items-center justify-between max-sm:flex-col max-sm:justify-start">
+                    <div>
+                        <h5 class="font-tprincipal text-[30px] font-semibold tracking-[4px] text-[#ee6a49] titulo">EXCLUSIVES EDITS</h5>
+                    </div>
+
+                    <div>
+                        <h4 class="font-tprincipal text-[30px] font-semibold text-[#ee6a49] titulo">2024</h4>
+                    </div>
+                    
+                </div>
+
+                <h1 class="font-tprincipal text-[90px] font-bold tracking-[3px] text-[#ff8161] titulo max-sm:text-center max-sm:leading-[84px] max-sm:mt-[13px]">XUQUII AES</h1>
+
+                <div class="mt-[10px] max-sm:mt-[25px]">
+                    <p class="font-tprincipal text-[18px] text-[#8d8b8b] leading-7 font-medium p-tiktok max-sm:text-center">¡Bienvenido a el increíble mundo de Xuquii, reconocido como uno de los mejores creadores de videos en TikTok y un destacado editor de contenido! <br> Con un talento inigualable para capturar la atención de la audiencia, Xuquii ha elevado el arte de la creación de videos a nuevas alturas. Ha convertido sus videos en verdaderas obras maestras virales.</p>
+                </div>
+
+
+                <div class="mt-[30px] flex items-center max-sm:mb-[25px]">
+                    <div class="mr-[25px] hover:translate-x-[5px] transition-all hover:translate-y-[-3px]">
+                        <a href="https://www.tiktok.com/@xuquii.aep" target="_blank" class="font-tprincipal text-[18px] text-white tikTok px-[15px] py-[6px] rounded-md flex items-center uppercase font-medium">Ver En Tik Tok <div class="flex items-center ml-[5px]">
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                        </div></a>
+                    </div>
+
+                    <div class="hover:translate-x-[5px] transition-all">
+                        <a href="#information" id="info" class="font-tprincipal text-[18px] text-[#2c2c2c] tik-border font-medium">Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--img Xuqui home-->
+
+            <div class="flex gap-3 relative max-sm:flex-col max-sm:items-center">
+                <div class="w-[270px] max-sm:w-full">
+                    <img src="img/img-1.jpg" class="w-full h-auto rounded-xl sombra">
+                </div>
+
+                <div class="w-[270px] ml-[15px] max-sm:hidden">
+                    <img src="img/img-2.jpg" class="w-full h-auto rounded-xl sombra">
+                </div>
+
+                <div class="tikTok w-[30px] h-[30px] rounded-full absolute top-[-45px] right-[-10px] z-[-1] sombra max-sm:hidden"></div>
+                <div class="tikTok w-[60px] h-[60px] rounded-full absolute top-[-30px] right-[50px] z-[-1] sombra max-sm:hidden"></div>
+                <div class="tikTok w-[80px] h-[80px] rounded-full absolute top-[-50px] right-[200px] z-[-1] sombra max-sm:hidden"></div>
+                <div class="tikTok w-[60px] h-[60px] rounded-full absolute top-[-20px] right-[400px] z-[-1] sombra max-sm:hidden"></div>
+                <div class="tikTok w-[67px] h-[67px] rounded-full absolute top-[-28px] right-[300px] z-[-1] sombra max-sm:hidden"></div>
+                <div class="tikTok w-[40px] h-[40px] rounded-full absolute top-[-40px] right-[500px] z-[-1] sombra max-sm:hidden"></div>
+                <div class="tikTok w-[60px] h-[60px] rounded-full absolute top-[80px] right-[550px] z-[-1] sombra max-sm:hidden"></div>
+
+            </div>
+        </div>
+
+        <div class="border-2 bg-white border-[#d3d3d3d8] w-[50px] h-[310px] fixed top-[246px] left-0 rounded-e-3xl shadow-2xl sombra max-sm:hidden">
+
+            <div class="relative left-[8px] mt-[20px]">
+                <div class="w-[30px] hover:translate-x-[7px] transition-all">
+                    <a href="#"><img src="img/logo.png" class="w-full h-auto"></a>
+                </div>
+
+                <div class="w-[30px] mt-[16px] hover:translate-x-[7px] transition-all">
+                    <a href="#"><img src="img/whatsapp-logo.png" class="w-full h-auto"></a>
+                </div>
+
+                <div class="w-[30px] mt-[16px] hover:translate-x-[7px] transition-all">
+                    <a href="#"><img src="img/facebook-logo.png" class="w-full h-auto"></a>
+                </div>
+
+                <div class="w-[30px] mt-[16px] hover:translate-x-[7px] transition-all">
+                    <a href="#"><img src="img/Instagram-logo.png" class="w-full h-auto"></a>
+                </div>
+
+                <div class="w-[30px] mt-[16px] hover:translate-x-[7px] transition-all">
+                    <a href="#"><img src="img/threads-logo.png" class="w-full h-auto"></a>
+                </div>
+
+                <div class="w-[30px] mt-[16px] hover:translate-x-[7px] transition-all">
+                    <a href="#"><img src="img/x-logo.png" class="w-full h-auto"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--SECTION 2-->
+
+    <section id="information" class="px-[20px] mt-[70px]">
+
+        <div class="text-center mb-[30px]">
+            <h3 class="text-[24px] font-tsecundario font-semibold uppercase tracking-[3px] text-[#a13266]">Información</h3>
+        </div>
+
+        <div>
+            <div class="bg-[#e7e7e7] mt-[15px] py-[13px] px-[20px] rounded-xl shadow-lg border-2 border-[#dbdada]" id="tarjeta">
+                <div class="text-center">
+                    <div class="flex justify-center">
+                        <div class="mr-[10px]">
+                            <h5 class="font-tprincipal font-medium text-[20px]">TIK TOK</h5>
+                        </div>
+
+                        <div class="w-[20px]">
+                            <img src="img/logo.png" class="w-full">
+                        </div>
+                    </div>
+
+                    <div class="mb-[5px]">
+                        <p class="font-tprincipal font-semibold text-[16px] tracking-[4px] uppercase">Xuquii.Aes</p>
+
+                        <div class="w-full h-[2px] tik-bg my-[5px]"></div>
+                    </div>
+                </div>
+
+                <div class="mt-[10px]">
+                    <p class="font-tprincipal font-normal text-[#464545] text-center">Le doy 5 estrellas a esta pagina y al canal de Xuquii en Tik Tok unos de los mejores creadores de videos de Futbol. 🥇⚽</p>
+                </div>
+
+                <div class="flex mt-[10px] justify-between items-center">
+                    <div>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                    </div>
+
+                    <div class="hover:translate-x-[5px] transition-all hover:translate-y-[-3px]">
+                        <a href="#" class="font-tprincipal text-[15px] text-white tikTok px-[15px] py-[6px] rounded-md uppercase font-medium">Ver En Tik Tok</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--tarjeta 2-->
+
+            <div class="bg-[#e7e7e7] mt-[20px] py-[13px] px-[20px] rounded-xl shadow-lg border-2 border-[#dbdada]" id="tarjeta">
+                <div class="text-center">
+                    <div class="flex justify-center">
+                        <div class="mr-[10px]">
+                            <h5 class="font-tprincipal font-medium text-[20px]">TIK TOK</h5>
+                        </div>
+
+                        <div class="w-[20px]">
+                            <img src="img/logo.png" class="w-full">
+                        </div>
+                    </div>
+
+                    <div class="mb-[5px]">
+                        <p class="font-tprincipal font-semibold text-[16px] tracking-[4px] uppercase">Xuquii.Aes</p>
+
+                        <div class="w-full h-[2px] tik-bg my-[5px]"></div>
+                    </div>
+                </div>
+
+                <div class="mt-[10px]">
+                    <p class="font-tprincipal font-normal text-[#464545] text-center">He encontrado el mejor canal de edits de Futbol uno de los mejores, sigue así Xuquii. 💖</p>
+                </div>
+
+                <div class="flex mt-[10px] justify-between items-center">
+                    <div>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star-half" style="color: #f58849; font-size: 25px;"></ion-icon>
+                    </div>
+
+                    <div class="hover:translate-x-[5px] transition-all hover:translate-y-[-3px]">
+                        <a href="#" class="font-tprincipal text-[15px] text-white tikTok px-[15px] py-[6px] rounded-md uppercase font-medium">Ver En Tik Tok</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--tarjeta 3-->
+
+            <div class="bg-[#e7e7e7] mt-[20px] py-[13px] px-[20px] rounded-xl shadow-lg border-2 border-[#dbdada]" id="tarjeta">
+                <div class="text-center">
+                    <div class="flex justify-center">
+                        <div class="mr-[10px]">
+                            <h5 class="font-tprincipal font-medium text-[20px]">TIK TOK</h5>
+                        </div>
+
+                        <div class="w-[20px]">
+                            <img src="img/logo.png" class="w-full">
+                        </div>
+                    </div>
+
+                    <div class="mb-[5px]">
+                        <p class="font-tprincipal font-semibold text-[16px] tracking-[4px] uppercase">Xuquii.Aes</p>
+
+                        <div class="w-full h-[2px] tik-bg my-[5px]"></div>
+                    </div>
+                </div>
+
+                <div class="mt-[10px]">
+                    <p class="font-tprincipal font-normal text-[#464545] text-center">Los Edits de este canal, son los mejores, el creador sabe editar y mantener los videos muy bien. 💯</p>
+                </div>
+
+                <div class="flex mt-[10px] justify-between items-center">
+                    <div>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                        <ion-icon name="star" style="color: #f58849; font-size: 25px;"></ion-icon>
+                    </div>
+
+                    <div class="hover:translate-x-[5px] transition-all hover:translate-y-[-3px]">
+                        <a href="#" class="font-tprincipal text-[15px] text-white tikTok px-[15px] py-[6px] rounded-md uppercase font-medium">Ver En Tik Tok</a>
+                    </div>
+                </div>
+            </div>
+
+                
+        </div>
+
+    </section>
+
+    <!--SECTION 3-->
+
+    <section class="px-[20px] my-[70px]">
+        
+        <div class="text-center">
+            <h5 class="text-[24px] font-tsecundario font-semibold uppercase tracking-[3px] text-[#a13266]">Sobre Mi ♡</h5>
+        </div>
+
+        <div>
+            <div class="mt-[50px]" id="forMe">
+                <h1 class="text-center font-tprincipal text-[30px] font-semibold titulo">LOS MEJORES EDITS DEL 2024</h1>
+                <p class="font-tprincipal font-medium text-[#464545] text- text-[18px] mt-[15px] leading-[30px]">¡Hola, amantes del fútbol y la magia de la edición! 👋 Soy Xuquii, y estoy emocionado de tenerlos en mi rincón virtual donde la pasión por el deporte rey y la creatividad se encuentran.<br> 🌟
+                Bienvenidos al fascinante mundo de Xuquii, el maestro detrás de los edits y videos de fútbol más sorprendentes que encontrarás en TikTok. En este espacio, exploraremos juntos la magia de sus creaciones, sumergiéndonos en un viaje visual que celebra la grandeza del fútbol de una manera única y cautivadora.</p>
+            </div>
+
+            <div class="w-full mt-[20px]">
+
+                <div>
+                    <div class="bg-[#e7e7e7] mt-[15px] py-[13px] px-[20px] rounded-xl shadow-lg border-2 border-[#dbdada]" id="tarjeta">
+                        <video src="img/xuquii-1.mp4" class="w-full rounded-xl shadow-2xl" controls id="scrollVideo"></video>
+
+                        <div class="hover:translate-x-[5px] transition-all hover:translate-y-[-3px] mt-[20px] mb-[10px] text-center">
+                            <a href="https://www.tiktok.com/@xuquii.aep/video/7283305188075556102" target="_blank" class="font-tprincipal text-[18px] text-white tikTok px-[15px] py-[6px] rounded-md uppercase font-medium">Ver En Tik Tok</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--VIDEOS 2-->
+
+        <div>
+            <div class="mt-[30px]" id="forMe">
+                <h5 class="text-[18px] font-tsecundario font-semibold uppercase tracking-[3px] text-[#a13266] text-center mb-[15px]">¡DISPONIBLES PARA DESCARGAR!</h5>
+                <h1 class="text-center font-tprincipal text-[30px] font-semibold titulo">EDITS NUEVOS CADA SEMANA.</h1>
+                <p class="font-tprincipal font-medium text-[#464545] text- text-[18px] mt-[15px] leading-[30px]">Xuquii no es simplemente un creador de contenido, es un virtuoso de la edición que transforma cada momento futbolístico en una experiencia cinematográfica.<br>Su habilidad para capturar la esencia del juego y traducirla en secuencias visuales asombrosas lo coloca en la cima de la jerarquía creativa de TikTok.🎬✨
+                <br>
+                En este espacio, no solo encontrarás compilaciones de los mejores momentos en el campo, sino también una fusión de arte y deporte que te dejará sin aliento. ¿Te imaginas ver a tus ídolos del fútbol de una manera totalmente nueva? Eso es lo que Xuquii logra con maestría.⚽✨</p>
+            </div>
+
+            <div class="w-full mt-[20px]">
+
+                <div>
+                    <div class="bg-[#e7e7e7] mt-[15px] py-[13px] px-[20px] rounded-xl shadow-lg border-2 border-[#dbdada]" id="tarjeta">
+                        <video src="img/xuquii-2.mp4" class="w-full rounded-xl shadow-2xl" controls id="scrollVideo2"></video>
+
+                        <div class="hover:translate-x-[5px] transition-all hover:translate-y-[-3px] mt-[20px] mb-[10px] text-center">
+                            <a href="https://www.tiktok.com/@xuquii.aep/video/7201348706237484294" target="_blank" class="font-tprincipal text-[18px] text-white tikTok px-[15px] py-[6px] rounded-md uppercase font-medium">Ver En Tik Tok</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--SECTION 4-->
+
+    <section class="px-[20px] my-[70px]">
+
+        <div class="relative w-full h-full rounded-xl overflow-hidden sombra">
+            <div class="w-full h-full">
+                <img src="img/img-cover-2.jpg" class="w-full h-auto bg-cover rounded-xl">
+                <div class="absolute inset-0 bg-gradient-to-b from-[#000000af] to-transparent"></div>
+
+                <div class="absolute flex items-center justify-center inset-0 flex-col">
+                    <h1 class="text-white font-bold font-tprincipal text-[40px] tracking-[3px] mb-[50px]">⚽XUQUII🧡</h1>
+
+                    <p class="px-[20px] text-white font-tprincipal font-semibold text-[20px] text-center">Gracias por unirte a esta emocionante travesía. ¡Prepárate para sumergirte en el universo de Xuquii y descubrir por qué es el creador definitivo de edits y videos de fútbol en TikTok! ⚽🎬✨</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--SECTION 5-->
+
+    <section class="px-[20px] my-[70px]">
+        
+        <div class="text-center">
+            <h1 class="text-[24px] font-tsecundario font-semibold uppercase tracking-[3px] text-[#a13266]">REDES SOCIALES</h1>
+        </div>
+
+        <div>
+
+            <div class="bg-[#e9e9e9] border-2 border-[#e2e2e2] shadow-md rounded-xl p-[10px] mt-[30px]" id="tarjeta">
+                <div class="flex justify-between items-center">
+                    <div class="w-[35px] flex items-center">
+                        <img src="img/whatsapp-logo.png" class="w-full bg-cover">
+                        <div class="ml-[10px]">
+                            <p class="text-[#424141] font-tprincipal font-medium text-[18px]">WhatsApp</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button onclick="alert('Disponible Pronto. ♡')" class="tik-bg px-[15px] py-[10px] rounded-lg text-white font-medium font-tprincipal flex items-center">Mensaje<ion-icon name="send" style="margin-left: 6px;"></ion-icon></button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--red social 2-->
+
+            <div class="bg-[#e9e9e9] border-2 border-[#e2e2e2] shadow-md rounded-xl p-[10px] mt-[25px]" id="tarjeta">
+                <div class="flex justify-between items-center">
+                    <div class="w-[35px] flex items-center">
+                        <img src="img/facebook-logo.png" class="w-full bg-cover">
+                        <div class="ml-[10px]">
+                            <p class="text-[#424141] font-tprincipal font-medium text-[18px]">Facebook</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button onclick="alert('Disponible Pronto. ♡')" class="tik-bg px-[15px] py-[10px] rounded-lg text-white font-medium font-tprincipal flex items-center">Mensaje<ion-icon name="send" style="margin-left: 6px;"></ion-icon></button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--red social 3-->
+
+            <div class="bg-[#e9e9e9] border-2 border-[#e2e2e2] shadow-md rounded-xl p-[10px] mt-[25px]" id="tarjeta">
+                <div class="flex justify-between items-center">
+                    <div class="w-[35px] flex items-center">
+                        <img src="img/Instagram-logo.png" class="w-full bg-cover">
+                        <div class="ml-[10px]">
+                            <p class="text-[#424141] font-tprincipal font-medium text-[18px]">Instagram</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button onclick="alert('Disponible Pronto. ♡')" class="tik-bg px-[15px] py-[10px] rounded-lg text-white font-medium font-tprincipal flex items-center">Mensaje<ion-icon name="send" style="margin-left: 6px;"></ion-icon></button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--red social 4-->
+
+            <div class="bg-[#e9e9e9] border-2 border-[#e2e2e2] shadow-md rounded-xl p-[10px] mt-[25px]" id="tarjeta">
+                <div class="flex justify-between items-center">
+                    <div class="w-[35px] flex items-center">
+                        <img src="img/x-logo.png" class="w-full bg-cover">
+                        <div class="ml-[10px]">
+                            <p class="text-[#424141] font-tprincipal font-medium text-[18px]">X</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button onclick="alert('Disponible Pronto. ♡')" class="tik-bg px-[15px] py-[10px] rounded-lg text-white font-medium font-tprincipal flex items-center">Mensaje<ion-icon name="send" style="margin-left: 6px;"></ion-icon></button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--red social 5-->
+
+            <div class="bg-[#e9e9e9] border-2 border-[#e2e2e2] shadow-md rounded-xl p-[10px] mt-[25px]" id="tarjeta">
+                <div class="flex justify-between items-center">
+                    <div class="w-[35px] flex items-center">
+                        <img src="img/threads-logo.png" class="w-full bg-cover">
+                        <div class="ml-[10px]">
+                            <p class="text-[#424141] font-tprincipal font-medium text-[18px]">Threads</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button onclick="alert('Disponible Pronto. ♡')" class="tik-bg px-[15px] py-[10px] rounded-lg text-white font-medium font-tprincipal flex items-center">Mensaje<ion-icon name="send" style="margin-left: 6px;"></ion-icon></button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--red social 6-->
+
+            <div class="bg-[#e9e9e9] border-2 border-[#e2e2e2] shadow-md rounded-xl p-[10px] mt-[25px]" id="tarjeta">
+                <div class="flex justify-between items-center">
+                    <div class="w-[35px] flex items-center">
+                        <img src="img/logo.png" class="w-full bg-cover">
+                        <div class="ml-[10px]">
+                            <p class="text-[#424141] font-tprincipal font-medium text-[18px]">TikTok</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button onclick="alert('Disponible Pronto. ♡')" class="tik-bg px-[15px] py-[10px] rounded-lg text-white font-medium font-tprincipal flex items-center">Mensaje<ion-icon name="send" style="margin-left: 6px;"></ion-icon></button>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="mt-[20px] relative">
+        <div class="w-full text-center">
+            <p class="font-tprincipal font-medium text-[13px]">Copyright © 2024<br>Designed by <span>Xuquii.Aes ❤️</span></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+<!---->
+  </body>
+</html>

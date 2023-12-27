@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #f7f5f5;
+}
+
+.tikTok{
+    background: linear-gradient(45deg, #EE1D52, #8134AF);
+    box-shadow: 0px 8px 10px -1px rgba(0, 0, 0, 0.15), 0px 4px 8px -1px rgba(0, 0, 0, 0.1);
+}
+.tik-bg{
+    background: linear-gradient(45deg, #EE1D52, #8134AF);
+}
+.background-tik{
+    background: linear-gradient(45deg, #EE1D52, #8134AF);
+}
+.tik-border{
+    border-bottom: 3px solid;
+    border-image: linear-gradient(45deg, #EE1D52, #8134AF);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+.search{
+    border: 2px solid;
+    border-image: linear-gradient(45deg, #EE1D52, #8134AF);
+    border-image-slice: 1;
+}
+.titulo{
+    background: linear-gradient(45deg, #EE1D52, #8134AF);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.sombra{
+    box-shadow: 0px 8px 10px 5px rgba(0, 0, 0, 0.15), 0px 4px 8px -1px rgba(0, 0, 0, 0.1);
+}
+.red-social{
+    transform: translateY(10px);
+    transition: all .50s ease;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 140px);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* styles.css */
+.dark-mode {
+    /* Estilos para el modo oscuro */
+    background-color: #191919;
+    color: #ffffff;
+}
+.dark-mode #header {
+    background-color: #252525;
+    border: 2px solid #dddddd18
+}
+.dark-mode #info{
+    color: #ffffff;
+}
+.dark-mode #tarjeta{
+    background-color: #252525;
+    border: 2px solid #7a7a7a33;
+}
+.dark-mode #tarjeta p{
+    color: #d3cece;
+}
+.dark-mode #forMe p{
+    color: #8d8b8b;
+}
+  
